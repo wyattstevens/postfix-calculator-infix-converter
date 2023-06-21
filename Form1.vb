@@ -1,5 +1,4 @@
-﻿'TODO: Deal with trailing spaces, add a converter, tune design.
-'calculate() parameters passed into function in unintuitive order.
+﻿'TODO: Deal with trailing spaces
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
