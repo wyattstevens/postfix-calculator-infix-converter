@@ -58,7 +58,7 @@
 
                 'Handle operators
             Else
-                While stk.Count > 0 AndAlso stk.Peek() <> "(" AndAlso precedence(ArrExpression(index)) < precedence(stk.Peek())
+                While stk.Count > 0 AndAlso stk.Peek() <> "(" AndAlso precedence(ArrExpression(index)) <= precedence(stk.Peek())
                     ResultTextBox.Text += stk.Pop()
                     ResultTextBox.Text += " "
                 End While
