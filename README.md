@@ -5,13 +5,14 @@ This application converts an infix expression to postfix and calculates the valu
 1. Clone this repository.
 2. Open the .sln file in Visual Studio.
 3. Run the application.
-4. Enter a postfix expression or click the convert button and convert an infix expression to postfix.
+4. Enter a postfix expression or click the convert button and convert an infix expression to postfix. (There needs to be spaces between each number and operator)
 
 ## Images
-<picture>
-  <img alt="Postfix calculation window." src="/media/calculator.png">
-</picture>
 
 <picture>
   <img alt="Infix to postfix converter." src="/media/converter.png">
+</picture>
+
+<picture>
+  <img alt="Postfix calculation window." src="/media/calculator.png">
 </picture>
